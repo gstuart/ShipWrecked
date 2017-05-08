@@ -7,12 +7,18 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { BeachComponent } from './beach/beach.component';
+import { JungleComponent } from './jungle/jungle.component';
+import { HillComponent } from './hill/hill.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    BeachComponent
+    BeachComponent,
+    JungleComponent,
+    HillComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
