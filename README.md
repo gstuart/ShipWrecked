@@ -1,6 +1,6 @@
 # ChooseYourAdventure
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0, using the text from  [Castaway]http://www.halfbakedsoftware.com/quandary/version_2/examples/castaway.htm
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0, using the text from  [Castaway Story](http://www.halfbakedsoftware.com/quandary/version_2/examples/castaway.htm)
 
 ## Development server
 
