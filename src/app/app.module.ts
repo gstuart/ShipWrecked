@@ -33,6 +33,7 @@ import { RightComponent } from './right/right.component';
 import { BackComponent } from './back/back.component';
 import { CaveContinueComponent } from './cave-continue/cave-continue.component';
 import { FloatComponent } from './float/float.component';
+import { PickComponent } from './pick/pick.component';
 import { ShoreComponent } from './shore/shore.component';
 
 @NgModule({
@@ -68,7 +69,9 @@ import { ShoreComponent } from './shore/shore.component';
     ShoreComponent,
     CaveContinueComponent,
     FloatComponent,
-    BackComponent
+    BackComponent,
+    PickComponent
+
   ],
   imports: [
     BrowserModule,
