@@ -23,6 +23,9 @@ import { TreeComponent } from './tree/tree.component';
 import { StreamComponent } from './stream/stream.component';
 import { BankComponent } from './bank/bank.component';
 import { IslandComponent } from './island/island.component';
+import { CaveComponent } from './cave/cave.component';
+import { LeftComponent } from './left/left.component';
+import { RightComponent } from './right/right.component';
 
 const appRoutes: Routes = [
   {
@@ -117,6 +120,18 @@ const appRoutes: Routes = [
   {
     path: 'island',
     component: IslandComponent
+  },
+  {
+    path: 'cave',
+    component: CaveComponent
+  },
+  {
+    path: 'left',
+    component: LeftComponent
+  },
+  {
+    path: 'right',
+    component: RightComponent
   }
 ];
 
