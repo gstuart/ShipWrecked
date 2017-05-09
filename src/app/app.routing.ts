@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
+import { ScareComponent } from './scare/scare.component';
 
 
 const appRoutes: Routes = [
@@ -38,9 +39,15 @@ const appRoutes: Routes = [
   {
     path: 'fight',
     component: FightComponent
-
+  },
+  {
+    path: 'stick',
+    component: StickComponent
+  },
+  {
+    path: 'scare',
+    component: ScareComponent
   }
-
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
