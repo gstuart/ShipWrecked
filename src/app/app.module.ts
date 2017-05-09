@@ -19,6 +19,7 @@ import { KillComponent } from './kill/kill.component';
 import { OverComponent } from './over/over.component';
 import { SwimComponent } from './swim/swim.component';
 import { SharkComponent } from './shark/shark.component';
+import { GunComponent } from './gun/gun.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { SharkComponent } from './shark/shark.component';
     KillComponent,
     OverComponent,
     SwimComponent,
-    SharkComponent
+    SharkComponent,
+    GunComponent
   ],
   imports: [
     BrowserModule,
