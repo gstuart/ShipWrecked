@@ -26,7 +26,6 @@ import { StickComponent } from './stick/stick.component';
     LightComponent,
     FightComponent,
     StickComponent
-    
   ],
   imports: [
     BrowserModule,
