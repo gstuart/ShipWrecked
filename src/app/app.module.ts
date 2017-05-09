@@ -23,6 +23,7 @@ import { RunComponent } from './run/run.component';
 import { GunComponent } from './gun/gun.component';
 import { FlightComponent } from './flight/flight.component';
 import { ClimbComponent } from './climb/climb.component';
+import { TreeComponent } from './tree/tree.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { ClimbComponent } from './climb/climb.component';
     GunComponent,
     FlightComponent,
     RunComponent,
-    ClimbComponent
+    ClimbComponent,
+    TreeComponent
   ],
   imports: [
     BrowserModule,
