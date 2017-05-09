@@ -17,6 +17,7 @@ import { ScareComponent } from './scare/scare.component';
 import { ContinueComponent } from './continue/continue.component';
 import { KillComponent } from './kill/kill.component';
 import { SwimComponent } from './swim/swim.component';
+import { SharkComponent } from './shark/shark.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { SwimComponent } from './swim/swim.component';
     ScareComponent,
     ContinueComponent,
     KillComponent,
-    SwimComponent
+    SwimComponent,
+    SharkComponent
   ],
   imports: [
     BrowserModule,
