@@ -10,7 +10,9 @@ import { BeachComponent } from './beach/beach.component';
 import { JungleComponent } from './jungle/jungle.component';
 import { HillComponent } from './hill/hill.component';
 import { AboutComponent } from './about/about.component';
+import { LightComponent } from './light/light.component';
 import { StickComponent } from './stick/stick.component';
+
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { StickComponent } from './stick/stick.component';
     JungleComponent,
     HillComponent,
     AboutComponent,
+    LightComponent,
     StickComponent
   ],
   imports: [
