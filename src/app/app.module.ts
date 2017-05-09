@@ -14,6 +14,7 @@ import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 import { ScareComponent } from './scare/scare.component';
 import { ContinueComponent } from './continue/continue.component';
+import { KillComponent } from './kill/kill.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ContinueComponent } from './continue/continue.component';
     FightComponent,
     StickComponent,
     ScareComponent,
-    ContinueComponent
+    ContinueComponent,
+    KillComponent
   ],
   imports: [
     BrowserModule,
