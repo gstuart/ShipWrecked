@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../user.model';
 
 @Component({
   selector: 'app-welcome',
@@ -12,4 +13,7 @@ export class WelcomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  users: User[] = [
+    new User("Jahan", true, true, 3, false, 0)
+  ];
 }

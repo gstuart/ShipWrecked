@@ -8,3 +8,7 @@ h1 {
 button {
   min-width: 100px;
 }
+
+li {
+  color: grey;
+}
