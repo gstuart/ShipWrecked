@@ -29,6 +29,7 @@ import { RightComponent } from './right/right.component';
 import { BackComponent } from './back/back.component';
 import { CaveContinueComponent} from './cave-continue/cave-continue.component';
 import { FloatComponent } from './float/float.component';
+import { PickComponent } from './pick/pick.component';
 
 const appRoutes: Routes = [
   {
@@ -147,7 +148,11 @@ const appRoutes: Routes = [
 {
     path: 'float',
     component: FloatComponent
-  }
+  },
+{
+  path: 'pick',
+  component: PickComponent
+}
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
