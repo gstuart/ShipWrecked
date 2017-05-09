@@ -5,6 +5,7 @@ import { BeachComponent } from './beach/beach.component';
 import { JungleComponent } from './jungle/jungle.component';
 import { HillComponent } from './hill/hill.component';
 import { AboutComponent } from './about/about.component';
+import { LightComponent } from './light/light.component';
 
 const appRoutes: Routes = [
   {
@@ -26,7 +27,12 @@ const appRoutes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'light',
+    component: LightComponent
   }
+
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
