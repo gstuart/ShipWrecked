@@ -28,6 +28,7 @@ import { LeftComponent } from './left/left.component';
 import { RightComponent } from './right/right.component';
 import { BackComponent } from './back/back.component';
 import { CaveContinueComponent} from './cave-continue/cave-continue.component';
+import { FloatComponent } from './float/float.component';
 
 const appRoutes: Routes = [
   {
@@ -142,6 +143,10 @@ const appRoutes: Routes = [
   {
     path: 'caveContinue',
     component: CaveContinueComponent
+},
+{
+    path: 'float',
+    component: FloatComponent
   }
 ];
 
