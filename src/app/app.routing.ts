@@ -16,6 +16,7 @@ import { OverComponent } from './over/over.component';
 import { SwimComponent } from './swim/swim.component';
 import { SharkComponent } from './shark/shark.component';
 import { GunComponent } from './gun/gun.component';
+import { FlightComponent } from './flight/flight.component';
 
 const appRoutes: Routes = [
   {
@@ -82,6 +83,10 @@ const appRoutes: Routes = [
   {
     path: 'gun',
     component: GunComponent
+  },
+  {
+    path: 'flight',
+    component: FlightComponent
   }
 ];
 
