@@ -6,11 +6,9 @@ import { JungleComponent } from './jungle/jungle.component';
 import { HillComponent } from './hill/hill.component';
 import { AboutComponent } from './about/about.component';
 import { LightComponent } from './light/light.component';
-<<<<<<< HEAD
-=======
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
->>>>>>> b5c05c8b0e5c4ee68cba6904611e4ebf2ce64542
+
 
 const appRoutes: Routes = [
   {
