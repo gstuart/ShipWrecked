@@ -16,6 +16,7 @@ import { GiveUpComponent } from './give-up/give-up.component';
 import { ScareComponent } from './scare/scare.component';
 import { ContinueComponent } from './continue/continue.component';
 import { KillComponent } from './kill/kill.component';
+import { OverComponent } from './over/over.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { KillComponent } from './kill/kill.component';
     GiveUpComponent,
     ScareComponent,
     ContinueComponent,
-    KillComponent
+    KillComponent,
+    OverComponent
   ],
   imports: [
     BrowserModule,
