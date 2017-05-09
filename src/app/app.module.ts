@@ -28,7 +28,7 @@ import { KillComponent } from './kill/kill.component';
     LightComponent,
     FightComponent,
     StickComponent,
-    GiveUpComponent
+    GiveUpComponent,
     ScareComponent,
     ContinueComponent,
     KillComponent

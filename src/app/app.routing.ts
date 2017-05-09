@@ -44,7 +44,7 @@ const appRoutes: Routes = [
   },
   {
 
-    path: 'giveUp',
+    path: 'give',
     component: GiveUpComponent
   },
   {
