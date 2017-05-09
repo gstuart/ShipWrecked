@@ -10,6 +10,7 @@ import { BeachComponent } from './beach/beach.component';
 import { JungleComponent } from './jungle/jungle.component';
 import { HillComponent } from './hill/hill.component';
 import { AboutComponent } from './about/about.component';
+import { LightComponent } from './light/light.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutComponent } from './about/about.component';
     BeachComponent,
     JungleComponent,
     HillComponent,
-    AboutComponent
+    AboutComponent,
+    LightComponent
   ],
   imports: [
     BrowserModule,
