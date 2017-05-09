@@ -25,6 +25,7 @@ import { FlightComponent } from './flight/flight.component';
 import { ClimbComponent } from './climb/climb.component';
 import { TreeComponent } from './tree/tree.component';
 import { StreamComponent } from './stream/stream.component';
+import { CaveComponent } from './cave/cave.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { StreamComponent } from './stream/stream.component';
     RunComponent,
     ClimbComponent,
     TreeComponent,
-    StreamComponent
+    StreamComponent,
+    CaveComponent
   ],
   imports: [
     BrowserModule,
