@@ -13,6 +13,7 @@ import { ScareComponent } from './scare/scare.component';
 import { ContinueComponent } from './continue/continue.component';
 import { KillComponent } from './kill/kill.component';
 import { SwimComponent } from './swim/swim.component';
+import { SharkComponent } from './shark/shark.component';
 
 const appRoutes: Routes = [
   {
@@ -67,6 +68,10 @@ const appRoutes: Routes = [
   {
     path: 'swim',
     component: SwimComponent
+  },
+  {
+    path: 'shark',
+    component: SharkComponent
   }
 ];
 
