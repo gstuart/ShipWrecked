@@ -12,6 +12,7 @@ import { GiveUpComponent } from './give-up/give-up.component';
 import { ScareComponent } from './scare/scare.component';
 import { ContinueComponent } from './continue/continue.component';
 import { KillComponent } from './kill/kill.component';
+import { SwimComponent } from './swim/swim.component';
 
 const appRoutes: Routes = [
   {
@@ -62,6 +63,10 @@ const appRoutes: Routes = [
   {
     path: 'kill',
     component: KillComponent
+  },
+  {
+    path: 'swim',
+    component: SwimComponent
   }
 ];
 
