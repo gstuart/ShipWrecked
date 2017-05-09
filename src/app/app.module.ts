@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
@@ -13,7 +12,6 @@ import { AboutComponent } from './about/about.component';
 import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
-
 
 @NgModule({
   declarations: [
@@ -26,7 +24,7 @@ import { StickComponent } from './stick/stick.component';
     LightComponent,
     FightComponent,
     StickComponent
-    
+
   ],
   imports: [
     BrowserModule,

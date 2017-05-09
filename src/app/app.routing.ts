@@ -37,6 +37,10 @@ const appRoutes: Routes = [
   {
     path: 'fight',
     component: FightComponent
+  },
+  {
+    path: 'stick',
+    component: StickComponent
   }
 
 ];
