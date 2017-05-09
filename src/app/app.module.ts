@@ -12,9 +12,9 @@ import { AboutComponent } from './about/about.component';
 import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
+import { GiveUpComponent } from './give-up/give-up.component';
 import { ScareComponent } from './scare/scare.component';
 import { ContinueComponent } from './continue/continue.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +26,7 @@ import { ContinueComponent } from './continue/continue.component';
     LightComponent,
     FightComponent,
     StickComponent,
+    GiveUpComponent
     ScareComponent,
     ContinueComponent
   ],
