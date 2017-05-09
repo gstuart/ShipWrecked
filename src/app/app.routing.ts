@@ -10,6 +10,7 @@ import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 import { ScareComponent } from './scare/scare.component';
 
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -47,7 +48,6 @@ const appRoutes: Routes = [
     path: 'scare',
     component: ScareComponent
   }
-
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

@@ -26,7 +26,6 @@ import { ScareComponent } from './scare/scare.component';
     FightComponent,
     StickComponent,
     ScareComponent
-
   ],
   imports: [
     BrowserModule,
