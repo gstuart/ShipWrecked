@@ -35,6 +35,7 @@ import { CaveContinueComponent } from './cave-continue/cave-continue.component';
 import { FloatComponent } from './float/float.component';
 import { PickComponent } from './pick/pick.component';
 import { ShoreComponent } from './shore/shore.component';
+import { BoatComponent } from './boat/boat.component';
 
 @NgModule({
   declarations: [
@@ -70,8 +71,8 @@ import { ShoreComponent } from './shore/shore.component';
     CaveContinueComponent,
     FloatComponent,
     BackComponent,
-    PickComponent
-
+    PickComponent,
+    BoatComponent
   ],
   imports: [
     BrowserModule,
