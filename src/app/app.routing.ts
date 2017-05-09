@@ -19,7 +19,7 @@ import { RunComponent } from './run/run.component';
 import { GunComponent } from './gun/gun.component';
 import { FlightComponent } from './flight/flight.component';
 import { ClimbComponent } from './climb/climb.component';
-
+import { StreamComponent } from './stream/stream.component';
 
 const appRoutes: Routes = [
   {
@@ -98,6 +98,10 @@ const appRoutes: Routes = [
   {
     path: 'climb',
     component: ClimbComponent
+  },
+  {
+    path: 'stream',
+    component: StreamComponent
   }
 ];
 
