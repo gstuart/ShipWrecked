@@ -9,6 +9,7 @@ import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -37,6 +38,7 @@ const appRoutes: Routes = [
   {
     path: 'fight',
     component: FightComponent
+
   }
 
 ];
