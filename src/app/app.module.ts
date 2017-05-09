@@ -20,6 +20,7 @@ import { OverComponent } from './over/over.component';
 import { SwimComponent } from './swim/swim.component';
 import { SharkComponent } from './shark/shark.component';
 import { RunComponent } from './run/run.component';
+import { GunComponent } from './gun/gun.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,11 @@ import { RunComponent } from './run/run.component';
     OverComponent,
     SwimComponent,
     SharkComponent,
+<<<<<<< HEAD
     RunComponent
+=======
+    GunComponent
+>>>>>>> 3d1aace1e78296bc9039ddac04a5270d42a5e89d
   ],
   imports: [
     BrowserModule,
