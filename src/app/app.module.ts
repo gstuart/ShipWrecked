@@ -22,6 +22,8 @@ import { SharkComponent } from './shark/shark.component';
 import { RunComponent } from './run/run.component';
 import { GunComponent } from './gun/gun.component';
 import { FlightComponent } from './flight/flight.component';
+import { ClimbComponent } from './climb/climb.component';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +45,8 @@ import { FlightComponent } from './flight/flight.component';
     SharkComponent,
     GunComponent,
     FlightComponent,
-    RunComponent
+    RunComponent,
+    ClimbComponent
   ],
   imports: [
     BrowserModule,
