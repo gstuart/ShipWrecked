@@ -15,6 +15,8 @@ import { StickComponent } from './stick/stick.component';
 import { GiveUpComponent } from './give-up/give-up.component';
 import { ScareComponent } from './scare/scare.component';
 import { ContinueComponent } from './continue/continue.component';
+import { KillComponent } from './kill/kill.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { ContinueComponent } from './continue/continue.component';
     StickComponent,
     GiveUpComponent
     ScareComponent,
-    ContinueComponent
+    ContinueComponent,
+    KillComponent
   ],
   imports: [
     BrowserModule,
