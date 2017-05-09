@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
+import { ScareComponent } from './scare/scare.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StickComponent } from './stick/stick.component';
     AboutComponent,
     LightComponent,
     FightComponent,
-    StickComponent
+    StickComponent,
+    ScareComponent
 
   ],
   imports: [
