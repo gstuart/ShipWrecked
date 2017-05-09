@@ -17,7 +17,9 @@ import { SwimComponent } from './swim/swim.component';
 import { SharkComponent } from './shark/shark.component';
 import { RunComponent } from './run/run.component';
 import { GunComponent } from './gun/gun.component';
+import { FlightComponent } from './flight/flight.component';
 import { ClimbComponent } from './climb/climb.component';
+
 
 const appRoutes: Routes = [
   {
@@ -88,6 +90,10 @@ const appRoutes: Routes = [
   {
     path: 'gun',
     component: GunComponent
+  },
+  {
+    path: 'flight',
+    component: FlightComponent
   },
   {
     path: 'climb',
