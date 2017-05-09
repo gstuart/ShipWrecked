@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
@@ -14,8 +13,8 @@ import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 import { GiveUpComponent } from './give-up/give-up.component';
-
-
+import { ScareComponent } from './scare/scare.component';
+import { ContinueComponent } from './continue/continue.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +27,8 @@ import { GiveUpComponent } from './give-up/give-up.component';
     FightComponent,
     StickComponent,
     GiveUpComponent
+    ScareComponent,
+    ContinueComponent
   ],
   imports: [
     BrowserModule,

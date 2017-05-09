@@ -9,7 +9,8 @@ import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 import { GiveUpComponent } from './give-up/give-up.component';
-
+import { ScareComponent } from './scare/scare.component';
+import { ContinueComponent } from './continue/continue.component';
 
 const appRoutes: Routes = [
   {
@@ -41,10 +42,22 @@ const appRoutes: Routes = [
     component: FightComponent
   },
   {
+
     path: 'giveUp',
     component: GiveUpComponent
+  },
+  {
+    path: 'stick',
+    component: StickComponent
+  },
+  {
+    path: 'scare',
+    component: ScareComponent
+  },
+  {
+    path: 'continue',
+    component: ContinueComponent
   }
-
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
