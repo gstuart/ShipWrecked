@@ -30,6 +30,8 @@ import { IslandComponent } from './island/island.component';
 import { CaveComponent } from './cave/cave.component';
 import { LeftComponent } from './left/left.component';
 import { RightComponent } from './right/right.component';
+import { BackComponent } from './back/back.component';
+import { CaveContinueComponent } from './cave-continue/cave-continue.component';
 import { FloatComponent } from './float/float.component';
 
 @NgModule({
@@ -61,6 +63,7 @@ import { FloatComponent } from './float/float.component';
     CaveComponent,
     LeftComponent,
     RightComponent,
+    CaveContinueComponent,
     FloatComponent
   ],
   imports: [
