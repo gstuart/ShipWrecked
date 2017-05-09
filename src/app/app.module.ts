@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
+import { GiveUpComponent } from './give-up/give-up.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { StickComponent } from './stick/stick.component';
     AboutComponent,
     LightComponent,
     FightComponent,
-    StickComponent
+    StickComponent,
+    GiveUpComponent
   ],
   imports: [
     BrowserModule,
