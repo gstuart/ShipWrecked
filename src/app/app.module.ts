@@ -26,6 +26,7 @@ import { ClimbComponent } from './climb/climb.component';
 import { TreeComponent } from './tree/tree.component';
 import { StreamComponent } from './stream/stream.component';
 import { BankComponent } from './bank/bank.component';
+import { IslandComponent } from './island/island.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { BankComponent } from './bank/bank.component';
     ClimbComponent,
     TreeComponent,
     StreamComponent,
-    BankComponent
+    BankComponent,
+    IslandComponent
   ],
   imports: [
     BrowserModule,

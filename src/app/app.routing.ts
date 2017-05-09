@@ -22,6 +22,7 @@ import { ClimbComponent } from './climb/climb.component';
 import { TreeComponent } from './tree/tree.component';
 import { StreamComponent } from './stream/stream.component';
 import { BankComponent } from './bank/bank.component';
+import { IslandComponent } from './island/island.component';
 
 const appRoutes: Routes = [
   {
@@ -112,6 +113,10 @@ const appRoutes: Routes = [
   {
     path: 'bank',
     component: BankComponent
+  },
+  {
+    path: 'island',
+    component: IslandComponent
   }
 ];
 
