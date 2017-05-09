@@ -9,7 +9,7 @@ import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 import { ScareComponent } from './scare/scare.component';
-
+import { ContinueComponent } from './continue/continue.component';
 
 const appRoutes: Routes = [
   {
@@ -47,6 +47,10 @@ const appRoutes: Routes = [
   {
     path: 'scare',
     component: ScareComponent
+  },
+  {
+    path: 'continue',
+    component: ContinueComponent
   }
 ];
 

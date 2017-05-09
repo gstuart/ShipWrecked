@@ -13,6 +13,7 @@ import { LightComponent } from './light/light.component';
 import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 import { ScareComponent } from './scare/scare.component';
+import { ContinueComponent } from './continue/continue.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ScareComponent } from './scare/scare.component';
     LightComponent,
     FightComponent,
     StickComponent,
-    ScareComponent
+    ScareComponent,
+    ContinueComponent
   ],
   imports: [
     BrowserModule,
