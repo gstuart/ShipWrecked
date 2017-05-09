@@ -32,6 +32,7 @@ import { FloatComponent } from './float/float.component';
 import { PickComponent } from './pick/pick.component';
 import { ShoreComponent } from './shore/shore.component';
 import { LeaveComponent } from './leave/leave.component';
+import { BoatComponent } from './boat/boat.component';
 
 const appRoutes: Routes = [
   {
@@ -146,15 +147,15 @@ const appRoutes: Routes = [
   {
     path: 'caveContinue',
     component: CaveContinueComponent
-},
-{
+  },
+  {
     path: 'float',
     component: FloatComponent
+    },
+  {
+    path: 'pick',
+    component: PickComponent
   },
-{
-  path: 'pick',
-  component: PickComponent
-},
   {
     path: 'shore',
     component: ShoreComponent
@@ -162,6 +163,10 @@ const appRoutes: Routes = [
   {
     path: 'leave',
     component: LeaveComponent
+  },
+  {
+    path: 'boat',
+    component: BoatComponent
   }
 ];
 
