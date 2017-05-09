@@ -26,7 +26,7 @@ import { ContinueComponent } from './continue/continue.component';
     LightComponent,
     FightComponent,
     StickComponent,
-    GiveUpComponent
+    GiveUpComponent,
     ScareComponent,
     ContinueComponent
   ],
