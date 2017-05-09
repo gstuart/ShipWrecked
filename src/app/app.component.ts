@@ -9,6 +9,6 @@ import { User } from './user.model';
 export class AppComponent {
   title = 'Shipwrecked!';
   users: User[] = [
-    new User("Jahan", true, true, 3, false, 0)
+    new User(true, true, 3, false, 0)
   ];
 }
