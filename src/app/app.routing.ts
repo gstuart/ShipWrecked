@@ -33,6 +33,7 @@ import { PickComponent } from './pick/pick.component';
 import { ShoreComponent } from './shore/shore.component';
 import { LeaveComponent } from './leave/leave.component';
 import { BoatComponent } from './boat/boat.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -167,6 +168,10 @@ const appRoutes: Routes = [
   {
     path: 'boat',
     component: BoatComponent
+  },
+  {
+    path: 'user-detail',
+    component: UserDetailComponent
   }
 ];
 
