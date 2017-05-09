@@ -37,6 +37,7 @@ import { PickComponent } from './pick/pick.component';
 import { ShoreComponent } from './shore/shore.component';
 import { LeaveComponent } from './leave/leave.component';
 import { BoatComponent } from './boat/boat.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
 
 
 @NgModule({
@@ -75,7 +76,8 @@ import { BoatComponent } from './boat/boat.component';
     BackComponent,
     PickComponent,
     LeaveComponent,
-    BoatComponent
+    BoatComponent,
+    UserDetailComponent
   ],
   
   imports: [
