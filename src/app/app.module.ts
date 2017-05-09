@@ -25,6 +25,8 @@ import { FlightComponent } from './flight/flight.component';
 import { ClimbComponent } from './climb/climb.component';
 import { TreeComponent } from './tree/tree.component';
 import { StreamComponent } from './stream/stream.component';
+import { BankComponent } from './bank/bank.component';
+import { IslandComponent } from './island/island.component';
 import { CaveComponent } from './cave/cave.component';
 import { LeftComponent } from './left/left.component';
 import { RightComponent } from './right/right.component';
@@ -53,9 +55,14 @@ import { RightComponent } from './right/right.component';
     ClimbComponent,
     TreeComponent,
     StreamComponent,
+<<<<<<< HEAD
+    BankComponent,
+    IslandComponent
+=======
     CaveComponent,
     LeftComponent,
     RightComponent
+>>>>>>> 7d0401ac6c33dc826a8f745feb7e98935d2019e2
   ],
   imports: [
     BrowserModule,
