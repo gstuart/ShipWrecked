@@ -21,6 +21,9 @@ import { FlightComponent } from './flight/flight.component';
 import { ClimbComponent } from './climb/climb.component';
 import { TreeComponent } from './tree/tree.component';
 import { StreamComponent } from './stream/stream.component';
+import { CaveComponent } from './cave/cave.component';
+import { LeftComponent } from './left/left.component';
+import { RightComponent } from './right/right.component';
 
 
 const appRoutes: Routes = [
@@ -108,6 +111,18 @@ const appRoutes: Routes = [
   {
     path: 'stream',
     component: StreamComponent
+  },
+  {
+    path: 'cave',
+    component: CaveComponent
+  },
+  {
+    path: 'left',
+    component: LeftComponent
+  },
+  {
+    path: 'right',
+    component: RightComponent
   }
 ];
 
