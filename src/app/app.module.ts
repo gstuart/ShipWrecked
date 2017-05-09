@@ -11,6 +11,7 @@ import { JungleComponent } from './jungle/jungle.component';
 import { HillComponent } from './hill/hill.component';
 import { AboutComponent } from './about/about.component';
 import { LightComponent } from './light/light.component';
+import { FightComponent } from './fight/fight.component';
 import { StickComponent } from './stick/stick.component';
 
 
@@ -23,7 +24,9 @@ import { StickComponent } from './stick/stick.component';
     HillComponent,
     AboutComponent,
     LightComponent,
+    FightComponent,
     StickComponent
+    
   ],
   imports: [
     BrowserModule,
