@@ -13,7 +13,7 @@ export class WelcomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  users: User[] = [
+  users: User[]; = [
     new User("Jahan", true, true, 3, false, 0)
   ];
 }
