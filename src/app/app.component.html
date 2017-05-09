@@ -3,13 +3,10 @@
     <div class="navbar-heading">
       <a class="navbar-brand" routerLink=''>Shipwrecked!</a>
     </div>
-    <ul class='nav navbar-nav navbar-right'>
+    <ul *ngFor="let user of users" class='nav navbar-nav navbar-right'>
       <li><a routerLink="about">About</a></li>
-      <div *ngFor="let user of users">
-        <li>Player: {{user.name}}</li>
-        <li>{{user.name}} Points: {{user.points}}</li>
-      </div>
-      <li><a routerLink="welcome">Welcome</a></li>
+      <li><a routerLink="user-detail">{{user.name}}'s Total Points: {{user.points}}</a></li>
+
     </ul>
   </div>
 </nav>
