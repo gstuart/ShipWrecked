@@ -34,6 +34,7 @@ import { ShoreComponent } from './shore/shore.component';
 import { LeaveComponent } from './leave/leave.component';
 import { BoatComponent } from './boat/boat.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+import { FlareComponent } from './flare/flare.component';
 
 const appRoutes: Routes = [
   {
@@ -172,6 +173,10 @@ const appRoutes: Routes = [
   {
     path: 'user-detail',
     component: UserDetailComponent
+  },
+  {
+    path: 'flare',
+    component: FlareComponent
   }
 ];
 
