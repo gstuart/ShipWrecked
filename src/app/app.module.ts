@@ -40,6 +40,10 @@ import { BoatComponent } from './boat/boat.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { FlareComponent } from './flare/flare.component';
 import { QuitComponent } from './quit/quit.component';
+import { GuessComponent } from './guess/guess.component';
+import { DieComponent } from './die/die.component';
+import { LiveComponent } from './live/live.component';
+import { SteerComponent } from './steer/steer.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +84,11 @@ import { QuitComponent } from './quit/quit.component';
     BoatComponent,
     UserDetailComponent,
     FlareComponent,
-    QuitComponent
+    QuitComponent,
+    GuessComponent,
+    DieComponent,
+    LiveComponent,
+    SteerComponent
   ],
 
   imports: [
