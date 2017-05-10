@@ -12,3 +12,7 @@ button {
 li {
   color: grey;
 }
+
+body {
+  padding: .1%;
+}
