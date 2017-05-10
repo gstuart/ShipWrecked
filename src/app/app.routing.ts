@@ -35,6 +35,7 @@ import { LeaveComponent } from './leave/leave.component';
 import { BoatComponent } from './boat/boat.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { FlareComponent } from './flare/flare.component';
+import { QuitComponent } from './quit/quit.component';
 
 const appRoutes: Routes = [
   {
@@ -177,6 +178,10 @@ const appRoutes: Routes = [
   {
     path: 'flare',
     component: FlareComponent
+  },
+  {
+    path: 'quit',
+    component: QuitComponent
   }
 ];
 
