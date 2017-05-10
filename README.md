@@ -48,7 +48,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 * :eyes: app at [http://localhost:4200](http://localhost:4200) :tada:
 
 ## Database
-
+1. Create account on [Firebase](https://firebase.google.com/) and follow the instruction for creating a remote database.
+2. Create `src/app/api-keys.ts` file. Add the following code, substituting the `xxxx` with your specific Firebase credentials.
+  ```
+  export var masterFirebaseConfig = {
+      apiKey: "xxxx",
+      authDomain: "xxxx.firebaseapp.com",
+      databaseURL: "https://xxxx.firebaseio.com",
+      storageBucket: "xxxx.appspot.com",
+      messagingSenderId: "xxxx"
+    };
+  ```
 
 ## Known Bugs
 > No known :bug:, :beetle:, or :ant:.
