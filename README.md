@@ -3,9 +3,12 @@
  [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 
-
 ## Short Description
-> Epicodus Javascript Project using Angular2, JavaScript, Gulp, NPM, Bootstrap, Firebase, CSS, and HTML.
+> Epicodus Javascript Project using Angular2, JavaScript, Gulp, NPM, Foundation, Firebase, CSS, and HTML.
+
+## Long Description
+Remember the Choose Your Own Adventure books back in the late 80's? Well this application is a tiny version of the series, using the text from [Castaway Story](http://www.halfbakedsoftware.com/quandary/version_2/examples/castaway.htm). The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+
 
 ## Table of Contents
 - [Sections](#sections)
@@ -44,8 +47,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
  Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Usage
-* `ng serve`
-* :eyes: app at [http://localhost:4200](http://localhost:4200) :tada:
+* **Option One:** visit [Shipwrecked](https://shipwrecked-17de2.firebaseapp.com/)
+* **Option Two:**
+  * `ng serve`
+  * :eyes: app at [http://localhost:4200](http://localhost:4200) :tada:
 
 ## Database
 1. Create account on [Firebase](https://firebase.google.com/) and follow the instruction for creating a remote database.
