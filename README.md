@@ -1,4 +1,4 @@
-![Banner Image](https://static.designmynight.com/uploads/2013/09/shipwrecked-birmingham-optimised.jpg)
+![Banner Image](shipwrecked.jpg)
 # Shipwrecked
  [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
