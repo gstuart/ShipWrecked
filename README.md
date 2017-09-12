@@ -68,6 +68,9 @@ export var masterFirebaseConfig = {
 ## Known Bugs
 > No known :bug:, :beetle:, or :ant:.
 
+## Sources
+[Banner image](https://t08.deviantart.net/MAsDI1JLEnglvHCpNRHJ4f6j3U8=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre14/fe3b/th/pre/f/2007/124/b/f/shipwrecked_by_jackieocean.jpg)
+
 ## Maintainer
 [Grace Stuart](href="https://github.com/gstuart") and [Jahan Walsh](href="https://github.com/jwalsh370")
 
